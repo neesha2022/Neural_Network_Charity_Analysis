@@ -24,7 +24,13 @@ The EIN and NAME columns were removed to improve code efficiency.
 ### Compiling, Training, and Evaluating the Model
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
+We started with two hidden layers with 80 and 30 neurons.
 
 Were you able to achieve the target model performance?
+Model accuracy was under 75% and not a good measure to predict the outcome of the charity donations.
 
 What steps did you take to try and increase model performance?
+We used bucketing to ASK_AMT and organized the different values by intervals. 
+
+### Summary
+The model did not reach the target of 75% accuracy and we can conclude that the model is not outperforming.
